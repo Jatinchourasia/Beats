@@ -12,6 +12,13 @@ i,
 svg {
   pointer-events: none;
 }
+#logo {
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+}
+.log {
+  font-size: 6rem;
+}
 
 .kick-pad,
 .snare-pad,
@@ -99,4 +106,13 @@ svg {
 select {
   padding: 1rem;
   font-size: 1rem;
+}
+
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }

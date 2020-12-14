@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
     <title>BeatMaker</title>
   </head>
   <body>
     <div class="sequencer">
+      <h1 id="logo"><span class="log">B</span>eats ♫♪♫</h1>
       <div class="kick-track">
         <div class="controls">
           <h1>Kick</h1>
@@ -82,12 +88,12 @@
           <div class="pad hihat-pad b7"></div>
         </div>
       </div>
-      <button class="play">Play</button>
+      <button id="play" class="play">Play</button>
     </div>
 
     <audio src="./sounds/kick-classic.wav" class="kick-sound"></audio>
-    <audio src="./sounds/snare-acoustic01.wav" class="kick-sound"></audio>
-    <audio src="./sounds/hihat-acoustic01.wav" class="kick-sound"></audio>
+    <audio src="./sounds/snare-acoustic01.wav" class="snare-sound"></audio>
+    <audio src="./sounds/hihat-808.wav" class="hihat-sound"></audio>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
